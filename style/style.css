@@ -18,12 +18,22 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 html,body{
     /* background: black; */
     background-color:#26272b;
 }
 
+.customBg{
+  background-color:#26272b !important;
+  color: #fff;
+  border: none !important;
+  border-radius: none !important;
+}
+
+.customBorder{
+  border: 1px solid #fff !important;
+  border-radius: 10px !important;
+}
 
 h1, h2, h3, p, label{
     text-align: center;
@@ -446,6 +456,10 @@ ul {
 /* Restaurant */
 .p-customLeft{
   text-align:left;
+}
+
+.custumerPrice{
+  height: 30px;
 }
 /* End restaurant */
 
