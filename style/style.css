@@ -98,6 +98,11 @@ p{
     width: inherit;
     height: inherit;
     object-fit: cover;
+    border-radius: 5px;
+}
+.customPosition200{
+  position: relative;
+  top: -200px;
 }
 
 iframe{
@@ -210,7 +215,6 @@ ul {
 
 .comments-container h1 {
  font-size: 36px;
- color: #283035;
  font-weight: 400;
 }
 
