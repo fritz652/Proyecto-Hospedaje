@@ -56,8 +56,30 @@ p{
   padding: 5vh 0 
 }
 
+.customNav{
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  z-index: 999 !important;
+}
+
 .carousel-custom {
     height: 60vh; /* 60% del tamaño de la pantalla */
+}
+
+.navbar-toggler{
+  background-color: white;
+  color: transparent;
+}
+
+.navbar-collapse ul li a:hover{
+  color: rgb(216, 247, 80)!important;
+  padding-top: 10px;
+  text-shadow: 3px 3px 8px rgb(248, 248, 246);
+}
+
+.solAndino:hover{
+  color: rgb(216, 247, 80)!important;
 }
 
 .carousel-custom .carousel-item,
@@ -81,6 +103,16 @@ p{
 
 .customColorBlack{
   color: black;
+}
+
+
+.bg-body-tertiary{
+  background-color: #26272b !important;
+  z-index: 999;
+}
+
+.bg-body-tertiary a{
+  color: white !important;
 }
 
 .cardContainer{
@@ -677,4 +709,41 @@ ul {
     margin-right:0;
     font-weight:600
   }
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.customBgImg{
+  background-image: url(../assets/img);
+ /*  height: 500px; */
+}
+
+.video-container {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
